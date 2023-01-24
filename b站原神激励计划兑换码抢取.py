@@ -7,9 +7,9 @@ import requests
 import time
 #谷歌浏览器中
 # CSRF，ID在你要领取的直播奖励界面点进去进去F12再F5刷新看到网络中有一个链接(https://api.bilibili.com/x/activity/mission/single_task?csrf=xx&id=xx)可以看到
-csrf = "1944912c99e6e3d45046e3c985327c45"
-id = "cc7955bf"
-cookie = "buvid4=86AA846A-9718-7FCB-D26C-5E0EB1029C3A94107-022100810-GpNK3Dg1dBUm7qq2WlrxkA%3D%3D; b_nut=1665195694; buvid3=F76122D9-FE80-11D9-AAE5-9D77C0AF990694625infoc; i-wanna-go-back=-1; _uuid=1CA5E16D-3CAE-45102-CF4A-BB610EF348D8895450infoc; DedeUserID=18767576; DedeUserID__ckMd5=b4c0188a55412cd0; b_ut=5; nostalgia_conf=-1; balh_is_closed=; balh_server_inner=__custom__; LIVE_BUVID=AUTO3716665271113309; is-2022-channel=1; blackside_state=1; fingerprint3=03ae031d387df1ddba61387c3c71b90d; CURRENT_BLACKGAP=0; buvid_fp_plain=undefined; rpdid=|(kmm~~Ruu)u0J'uYY)~k)Ym|; CURRENT_QUALITY=120; fingerprint=42acf6843cd02953bd9efb94c3eb2d4b; CURRENT_FNVAL=4048; SESSDATA=ddaacf94%2C1690073965%2C152ea%2A12; bili_jct=1944912c99e6e3d45046e3c985327c45; sid=54u6fw2f; PVID=4; b_lsid=3B5E734F_185E40AE0DF; innersign=1; bp_video_offset_18767576=754768802317598700; buvid_fp=42acf6843cd02953bd9efb94c3eb2d4b"
+csrf = ""
+id = ""
+cookie = ""
 # 奖励领取资格查询
 def isCan():
     """
