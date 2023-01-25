@@ -68,7 +68,6 @@ if __name__ == '__main__':
         time_str=time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))
         print(time_str+":等待领取资格")
         time.sleep(1)
-    getaword()
     time1 = time.perf_counter()
     #线程数
     pool = multiprocessing.Pool(10)
